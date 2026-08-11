@@ -77,18 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Вайбкодинг — создание AI-продуктов" },
+      { title: "AI-продукты через вайбкодинг за сутки" },
       {
         name: "description",
         content:
-          "Создаю AI-продукты через вайбкодинг: от идеи до запуска за дни, а не месяцы. Прототипы, MVP и продакшн на базе AI.",
+          "Создам AI-продукт через вайбкодинг за сутки. 30 проектов для онлайн-школ, магазинов и салонов.",
       },
       { name: "author", content: "Vibecoding Specialist" },
-      { property: "og:title", content: "Создаю AI-продукты через вайбкодинг" },
+      { property: "og:title", content: "Создам AI-продукты через вайбкодинг за сутки!" },
       {
         property: "og:description",
         content:
-          "Превращаю идеи в работающие AI-продукты за дни. Прототипы, MVP и продакшн на базе AI.",
+          "30 проектов для онлайн-школ, магазинов и салонов. Запуск за сутки.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
