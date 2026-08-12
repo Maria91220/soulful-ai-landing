@@ -346,7 +346,7 @@ function Index() {
             >
               {/* Preview placeholder */}
               <div className="relative aspect-video bg-gradient-to-br from-accent-teal/15 via-accent-cyan/15 to-accent-sky/15 flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,oklch(0.22_0.04_250/0.03)_1px,transparent_1px),linear-gradient(to_bottom,oklch(0.22_0.04_250/0.03)_1px,transparent_1px)] bg-[size:24px_24px]" />
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,oklch(0.8_0.14_205/0.08)_1px,transparent_1px),linear-gradient(to_bottom,oklch(0.8_0.14_205/0.08)_1px,transparent_1px)] bg-[size:24px_24px]" />
                 <div className="relative rounded-2xl bg-background/60 p-4 shadow-sm backdrop-blur-sm">
                   {projectIcons[project.icon]}
                 </div>
