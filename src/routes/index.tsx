@@ -379,7 +379,7 @@ function Index() {
           description="Прозрачный путь от идеи до запуска — всего за несколько шагов."
         />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          {steps.map((step, index) => (
+          {steps.map((step) => (
             <div key={step.number} className="card-glass p-6">
               <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-accent-teal to-accent-sky text-lg font-bold text-primary-foreground shadow-md">
                 {step.number}
@@ -390,11 +390,9 @@ function Index() {
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                 {step.description}
               </p>
-              {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute right-0 top-1/2 h-px w-6 -translate-y-1/2 translate-x-1/2 bg-border" />
-              )}
             </div>
           ))}
+
         </div>
       </section>
 
