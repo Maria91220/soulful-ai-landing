@@ -63,8 +63,8 @@
 :root {
   --radius: 0.75rem;
 
-  /* Bright, sunlit canvas */
-  --background: oklch(0.985 0.008 230);
+  /* Bright, sunlit canvas with a soft sky tint */
+  --background: oklch(0.96 0.018 230);
   --foreground: oklch(0.22 0.04 250);
 
   --card: oklch(1 0 0);
