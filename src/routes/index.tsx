@@ -299,12 +299,11 @@ function Index() {
           </p>
 
           {/* CTA buttons */}
-          <div
-            className="animate-fade-up mt-10 flex w-full flex-col items-center gap-3 sm:w-auto sm:flex-row sm:gap-4"
+          <ContactButtons
+            className="animate-fade-up mt-10"
             style={{ animationDelay: "240ms" }}
-          >
-            <ContactButtons />
-          </div>
+          />
+
 
           {/* Stats strip */}
           <div
