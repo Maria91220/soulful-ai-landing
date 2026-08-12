@@ -150,10 +150,11 @@ function EmailIcon({ className }: { className?: string }) {
   );
 }
 
-function ContactButtons({ className = "" }: { className?: string }) {
+function ContactButtons({ className = "", style }: { className?: string; style?: React.CSSProperties }) {
   return (
     <div
       className={`flex w-full flex-col items-center gap-3 sm:w-auto sm:flex-row sm:gap-4 ${className}`}
+      style={style}
     >
       <a
         href={TELEGRAM_URL}
@@ -174,6 +175,7 @@ function ContactButtons({ className = "" }: { className?: string }) {
     </div>
   );
 }
+
 
 function SectionHeader({ eyebrow, title, description }: { eyebrow?: string; title: string; description: string }) {
   return (
