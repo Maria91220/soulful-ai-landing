@@ -206,21 +206,21 @@ function Index() {
             className="aurora-blob absolute -top-40 left-1/2 h-[42rem] w-[42rem] -translate-x-1/2 animate-aurora-1"
             style={{
               background:
-                "radial-gradient(circle, oklch(0.78 0.13 200 / 0.55), transparent 70%)",
+                "radial-gradient(circle, oklch(0.76 0.19 50 / 0.4), transparent 70%)",
             }}
           />
           <div
             className="aurora-blob absolute top-1/3 -right-24 h-[34rem] w-[34rem] animate-aurora-2"
             style={{
               background:
-                "radial-gradient(circle, oklch(0.66 0.16 235 / 0.42), transparent 70%)",
+                "radial-gradient(circle, oklch(0.66 0.19 295 / 0.4), transparent 70%)",
             }}
           />
           <div
             className="aurora-blob absolute bottom-0 -left-24 h-[30rem] w-[30rem] animate-aurora-1"
             style={{
               background:
-                "radial-gradient(circle, oklch(0.72 0.12 180 / 0.4), transparent 70%)",
+                "radial-gradient(circle, oklch(0.8 0.14 205 / 0.32), transparent 70%)",
             }}
           />
         </div>
@@ -346,7 +346,7 @@ function Index() {
             >
               {/* Preview placeholder */}
               <div className="relative aspect-video bg-gradient-to-br from-accent-teal/15 via-accent-cyan/15 to-accent-sky/15 flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,oklch(0.22_0.04_250/0.03)_1px,transparent_1px),linear-gradient(to_bottom,oklch(0.22_0.04_250/0.03)_1px,transparent_1px)] bg-[size:24px_24px]" />
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,oklch(0.8_0.14_205/0.08)_1px,transparent_1px),linear-gradient(to_bottom,oklch(0.8_0.14_205/0.08)_1px,transparent_1px)] bg-[size:24px_24px]" />
                 <div className="relative rounded-2xl bg-background/60 p-4 shadow-sm backdrop-blur-sm">
                   {projectIcons[project.icon]}
                 </div>
