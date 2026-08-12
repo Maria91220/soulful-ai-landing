@@ -179,7 +179,7 @@ function ContactButtons({ className = "", style }: { className?: string; style?:
 
 function SectionHeader({ eyebrow, title, description }: { eyebrow?: string; title: string; description: string }) {
   return (
-    <div className="mb-12 text-center sm:mb-16">
+    <div className="mb-8 text-center sm:mb-10">
       {eyebrow && (
         <span className="mb-3 inline-block text-xs font-semibold uppercase tracking-widest text-accent-sky">
           {eyebrow}
