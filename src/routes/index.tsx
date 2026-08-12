@@ -179,7 +179,7 @@ function ContactButtons({ className = "", style }: { className?: string; style?:
 
 function SectionHeader({ eyebrow, title, description }: { eyebrow?: string; title: string; description: string }) {
   return (
-    <div className="mb-12 text-center sm:mb-16">
+    <div className="mb-8 text-center sm:mb-10">
       {eyebrow && (
         <span className="mb-3 inline-block text-xs font-semibold uppercase tracking-widest text-accent-sky">
           {eyebrow}
@@ -262,7 +262,7 @@ function Index() {
         {/* Hero content */}
         <section
           id="contact"
-          className="relative z-10 mx-auto flex max-w-4xl flex-col items-center px-5 pb-24 pt-12 text-center sm:px-8 sm:pt-20"
+          className="relative z-10 mx-auto flex max-w-4xl flex-col items-center px-5 pb-16 pt-10 text-center sm:px-8 sm:pt-16"
         >
           {/* Availability badge */}
           <div
@@ -332,7 +332,7 @@ function Index() {
       </section>
 
       {/* Projects */}
-      <section id="projects" className="relative z-10 mx-auto max-w-6xl px-5 py-24 sm:px-8 sm:py-32">
+      <section id="projects" className="relative z-10 mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
         <SectionHeader
           eyebrow="Портфолио"
           title="Реализованные проекты"
@@ -372,7 +372,7 @@ function Index() {
       </section>
 
       {/* How I work */}
-      <section id="about" className="relative z-10 mx-auto max-w-6xl px-5 py-24 sm:px-8 sm:py-32">
+      <section id="about" className="relative z-10 mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
         <SectionHeader
           eyebrow="Процесс"
           title="Как я работаю"
@@ -397,22 +397,22 @@ function Index() {
       </section>
 
       {/* Final CTA */}
-      <section className="relative z-10 mx-auto max-w-4xl px-5 py-24 text-center sm:px-8 sm:py-32">
-        <div className="card-glass mx-auto max-w-3xl px-6 py-12 sm:px-12 sm:py-16">
+      <section className="relative z-10 mx-auto max-w-4xl px-5 py-16 text-center sm:px-8 sm:py-20">
+        <div className="card-glass mx-auto max-w-3xl px-6 py-10 sm:px-12 sm:py-12">
           <h2 className="font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
             Оставь заявку уже сегодня
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base text-muted-foreground">
             Расскажите о задаче — и я свяжусь с вами в ближайшее время, чтобы обсудить детали.
           </p>
-          <div className="mt-10 flex justify-center">
+          <div className="mt-8 flex justify-center">
             <ContactButtons />
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="relative z-10 border-t border-border py-8">
+      <footer className="relative z-10 border-t border-border py-6">
         <div className="mx-auto max-w-6xl px-5 text-center sm:px-8">
           <p className="text-sm text-muted-foreground">
             © {new Date().getFullYear()} vibecode.ai — AI-продукты через вайбкодинг.
