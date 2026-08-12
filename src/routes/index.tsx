@@ -1,4 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
+import type { ReactNode } from "react";
+
 
 const TELEGRAM_URL = "https://t.me/vibecoding";
 const EMAIL_ADDRESS = "hello@vibecode.ai";
@@ -50,7 +52,7 @@ const steps = [
   },
 ];
 
-const projectIcons: Record<string, JSX.Element> = {
+const projectIcons: Record<string, ReactNode> = {
   school: (
     <svg
       viewBox="0 0 24 24"
