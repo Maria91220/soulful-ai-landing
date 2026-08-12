@@ -206,7 +206,7 @@ function Index() {
             className="aurora-blob absolute -top-40 left-1/2 h-[42rem] w-[42rem] -translate-x-1/2 animate-aurora-1"
             style={{
               background:
-                "radial-gradient(circle, oklch(0.78 0.13 200 / 0.55), transparent 70%)",
+                "radial-gradient(circle, oklch(0.76 0.19 50 / 0.4), transparent 70%)",
             }}
           />
           <div
